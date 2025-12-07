@@ -557,13 +557,13 @@ class MASK2VC_SceneSettings(PropertyGroup):
     flip_vertical: BoolProperty(
         name=iface_("垂直翻转"),
         description=_("修复图像上下颠倒的问题"),
-        default=True
+        default=False
     )
     
     flip_horizontal: BoolProperty(
         name=iface_("水平翻转"),
         description=_("修复图像左右颠倒的问题"),
-        default=True
+        default=False
     )
     
     debug_mode: BoolProperty(
