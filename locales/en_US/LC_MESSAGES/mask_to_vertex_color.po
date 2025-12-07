@@ -1,0 +1,627 @@
+# English translation for Mask To Vertex Color Pro
+# Copyright (C) 2024 墨泪
+# This file is distributed under the same license as the Mask To Vertex Color Pro package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Mask To Vertex Color Pro 2.0.4\n"
+"Report-Msgid-Bugs-To: https://www.kiiiii.com\n"
+"POT-Creation-Date: 2024-01-01 12:00+0000\n"
+"PO-Revision-Date: 2024-01-01 12:00+0000\n"
+"Last-Translator: 墨泪\n"
+"Language-Team: English\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+# Property names and descriptions
+msgctxt "*"
+msgid "对象"
+msgstr "Object"
+
+msgctxt "*"
+msgid "启用"
+msgstr "Enable"
+
+msgctxt "*"
+msgid "是否处理此对象"
+msgstr "Whether to process this object"
+
+msgctxt "*"
+msgid "UV层"
+msgstr "UV Layer"
+
+msgctxt "*"
+msgid "使用的UV层名称"
+msgstr "Name of the UV layer to use"
+
+msgctxt "*"
+msgid "顶点色名称"
+msgstr "Vertex Color Name"
+
+msgctxt "*"
+msgid "顶点色层的名称"
+msgstr "Name of the vertex color layer"
+
+msgctxt "*"
+msgid "顶点颜色属性名:"
+msgstr "Vertex Color Attribute Name:"
+
+msgctxt "*"
+msgid "状态"
+msgstr "Status"
+
+msgctxt "*"
+msgid "处理状态"
+msgstr "Processing status"
+
+msgctxt "*"
+msgid "图像文件"
+msgstr "Image File"
+
+msgctxt "*"
+msgid "用于遮罩转换的图像文件路径"
+msgstr "Image file path for mask conversion"
+
+msgctxt "*"
+msgid "遮罩源"
+msgstr "Mask Source"
+
+msgctxt "*"
+msgid "选择遮罩信息的来源"
+msgstr "Select the source of mask information"
+
+msgctxt "*"
+msgid "混合模式"
+msgstr "Blend Mode"
+
+msgctxt "*"
+msgid "遮罩与现有顶点色的混合模式"
+msgstr "Blending mode between mask and existing vertex colors"
+
+msgctxt "*"
+msgid "混合强度"
+msgstr "Blend Factor"
+
+msgctxt "*"
+msgid "混合效果的强度"
+msgstr "Strength of the blending effect"
+
+msgctxt "*"
+msgid "UV包裹"
+msgstr "UV Wrap"
+
+msgctxt "*"
+msgid "将UV坐标包裹在0-1范围内（处理超出范围的UV）"
+msgstr "Wrap UV coordinates within 0-1 range (handles out-of-range UVs)"
+
+msgctxt "*"
+msgid "UV限制"
+msgstr "UV Clamp"
+
+msgctxt "*"
+msgid "将UV坐标限制在0-1范围内（不包裹）"
+msgstr "Clamp UV coordinates within 0-1 range (no wrapping)"
+
+msgctxt "*"
+msgid "垂直翻转"
+msgstr "Flip Vertical"
+
+msgctxt "*"
+msgid "修复图像上下颠倒的问题"
+msgstr "Fix upside-down image issues"
+
+msgctxt "*"
+msgid "水平翻转"
+msgstr "Flip Horizontal"
+
+msgctxt "*"
+msgid "修复图像左右颠倒的问题"
+msgstr "Fix left-right reversed image issues"
+
+msgctxt "*"
+msgid "调试模式"
+msgstr "Debug Mode"
+
+msgctxt "*"
+msgid "显示详细处理信息"
+msgstr "Show detailed processing information"
+
+msgctxt "*"
+msgid "单对象处理时创建的顶点色层的名称"
+msgstr "Vertex color name for single object processing"
+
+# Enum items
+msgctxt "*"
+msgid "自动检测"
+msgstr "Auto Detect"
+
+msgctxt "*"
+msgid "自动检测最佳遮罩源"
+msgstr "Automatically detect the best mask source"
+
+msgctxt "*"
+msgid "Alpha通道"
+msgstr "Alpha Channel"
+
+msgctxt "*"
+msgid "使用图像的Alpha通道作为遮罩"
+msgstr "Use image alpha channel as mask"
+
+msgctxt "*"
+msgid "灰度值"
+msgstr "Grayscale"
+
+msgctxt "*"
+msgid "将RGB转换为灰度作为遮罩"
+msgstr "Convert RGB to grayscale as mask"
+
+msgctxt "*"
+msgid "红色通道"
+msgstr "Red Channel"
+
+msgctxt "*"
+msgid "使用红色通道作为遮罩"
+msgstr "Use red channel as mask"
+
+msgctxt "*"
+msgid "绿色通道"
+msgstr "Green Channel"
+
+msgctxt "*"
+msgid "使用绿色通道作为遮罩"
+msgstr "Use green channel as mask"
+
+msgctxt "*"
+msgid "蓝色通道"
+msgstr "Blue Channel"
+
+msgctxt "*"
+msgid "使用蓝色通道作为遮罩"
+msgstr "Use blue channel as mask"
+
+msgctxt "*"
+msgid "亮度"
+msgstr "Luminance"
+
+msgctxt "*"
+msgid "使用亮度作为遮罩"
+msgstr "Use luminance as mask"
+
+msgctxt "*"
+msgid "替换"
+msgstr "Replace"
+
+msgctxt "*"
+msgid "替换现有Alpha值"
+msgstr "Replace existing alpha values"
+
+msgctxt "*"
+msgid "相乘"
+msgstr "Multiply"
+
+msgctxt "*"
+msgid "与现有Alpha值相乘"
+msgstr "Multiply with existing alpha values"
+
+msgctxt "*"
+msgid "相加"
+msgstr "Add"
+
+msgctxt "*"
+msgid "与现有Alpha值相加"
+msgstr "Add to existing alpha values"
+
+msgctxt "*"
+msgid "相减"
+msgstr "Subtract"
+
+msgctxt "*"
+msgid "从现有Alpha值中减去"
+msgstr "Subtract from existing alpha values"
+
+msgctxt "*"
+msgid "最小值"
+msgstr "Min"
+
+msgctxt "*"
+msgid "取最小值"
+msgstr "Take minimum value"
+
+msgctxt "*"
+msgid "最大值"
+msgstr "Max"
+
+msgctxt "*"
+msgid "取最大值"
+msgstr "Take maximum value"
+
+msgctxt "*"
+msgid "叠加"
+msgstr "Overlay"
+
+msgctxt "*"
+msgid "叠加模式"
+msgstr "Overlay mode"
+
+msgctxt "*"
+msgid "滤色"
+msgstr "Screen"
+
+msgctxt "*"
+msgid "滤色模式"
+msgstr "Screen mode"
+
+# Operators
+msgctxt "Operator"
+msgid "选择图像文件"
+msgstr "Select Image File"
+
+msgctxt "Operator"
+msgid "选择用于遮罩转换的图像文件"
+msgstr "Select image file for mask conversion"
+
+msgctxt "Operator"
+msgid "应用遮罩到顶点色"
+msgstr "Apply Mask to Vertex Color"
+
+msgctxt "Operator"
+msgid "将共享设置中的图像应用到当前选中模型的顶点色Alpha通道"
+msgstr "Apply the shared image to the currently selected model's vertex color alpha channel"
+
+msgctxt "Operator"
+msgid "添加选中对象"
+msgstr "Add Selected Objects"
+
+msgctxt "Operator"
+msgid "将选中的对象添加到批量处理列表"
+msgstr "Add selected objects to batch processing list"
+
+msgctxt "Operator"
+msgid "移除选中"
+msgstr "Remove Selected"
+
+msgctxt "Operator"
+msgid "从批量处理列表中移除选中的对象"
+msgstr "Remove selected object from batch processing list"
+
+msgctxt "Operator"
+msgid "移除启用项"
+msgstr "Remove Enabled Items"
+
+msgctxt "Operator"
+msgid "从批量处理列表中移除所有启用的对象"
+msgstr "Remove all enabled objects from batch processing list"
+
+msgctxt "Operator"
+msgid "清空列表"
+msgstr "Clear All"
+
+msgctxt "Operator"
+msgid "清空批量处理列表中的所有对象"
+msgstr "Clear all objects from batch processing list"
+
+msgctxt "Operator"
+msgid "全部启用"
+msgstr "Enable All"
+
+msgctxt "Operator"
+msgid "启用列表中的所有对象"
+msgstr "Enable all objects in the list"
+
+msgctxt "Operator"
+msgid "全部禁用"
+msgstr "Disable All"
+
+msgctxt "Operator"
+msgid "禁用列表中的所有对象"
+msgstr "Disable all objects in the list"
+
+msgctxt "Operator"
+msgid "批量应用遮罩"
+msgstr "Batch Apply Mask"
+
+msgctxt "Operator"
+msgid "批量将遮罩应用到多个对象的顶点色"
+msgstr "Batch apply mask to multiple objects' vertex colors"
+
+msgctxt "Operator"
+msgid "修复UV坐标"
+msgstr "Fix UV Coordinates"
+
+msgctxt "Operator"
+msgid "修复UV坐标中的NaN和无效值"
+msgstr "Fix NaN and invalid values in UV coordinates"
+
+msgctxt "Operator"
+msgid "验证模型"
+msgstr "Validate Model"
+
+msgctxt "Operator"
+msgid "检查模型是否适合应用遮罩"
+msgstr "Check if the model is suitable for applying masks"
+
+# UI text
+msgctxt "*"
+msgid "遮罩转顶点色 Pro"
+msgstr "Mask to Vertex Color Pro"
+
+msgctxt "*"
+msgid "图像文件:"
+msgstr "Image file:"
+
+msgctxt "*"
+msgid "未选择图像"
+msgstr "No image selected"
+
+msgctxt "*"
+msgid "选择图像"
+msgstr "Select Image"
+
+msgctxt "*"
+msgid "更换图像"
+msgstr "Change Image"
+
+msgctxt "*"
+msgid "处理设置:"
+msgstr "Processing Settings:"
+
+msgctxt "*"
+msgid "单对象处理:"
+msgstr "Single Object Processing:"
+
+msgctxt "*"
+msgid "应用到当前选中对象"
+msgstr "Apply to Currently Selected Object"
+
+msgctxt "*"
+msgid "注意: 仅处理当前选中的一个对象"
+msgstr "Note: Only processes the currently selected single object"
+
+msgctxt "*"
+msgid "请先选择图像文件"
+msgstr "Please select an image file first"
+
+msgctxt "*"
+msgid "批量处理:"
+msgstr "Batch Processing:"
+
+msgctxt "*"
+msgid "批量应用到 {} 个对象"
+msgstr "Batch apply to {} objects"
+
+msgctxt "*"
+msgid "注意: 将处理列表中所有启用的对象 ({}个)"
+msgstr "Note: Will process all enabled objects in the list ({} objects)"
+
+msgctxt "*"
+msgid "请在列表中启用至少一个对象"
+msgstr "Please enable at least one object in the list"
+
+msgctxt "*"
+msgid "批量列表为空"
+msgstr "Batch list is empty"
+
+msgctxt "*"
+msgid "添加选中对象到列表"
+msgstr "Add Selected Objects to List"
+
+msgctxt "*"
+msgid "使用方法:"
+msgstr "Usage:"
+
+msgctxt "*"
+msgid "1. 在3D视图中选择多个对象"
+msgstr "1. Select multiple objects in 3D viewport"
+
+msgctxt "*"
+msgid "2. 点击'添加选中对象到列表'"
+msgstr "2. Click 'Add Selected Objects to List'"
+
+msgctxt "*"
+msgid "3. 在列表中勾选要处理的对象"
+msgstr "3. Check the objects to process in the list"
+
+msgctxt "*"
+msgid "4. 点击'批量应用到X个对象'"
+msgstr "4. Click 'Batch apply to X objects'"
+
+msgctxt "*"
+msgid "工具:"
+msgstr "Tools:"
+
+msgctxt "*"
+msgid "修复UV坐标"
+msgstr "Fix UV Coordinates"
+
+msgctxt "*"
+msgid "验证模型"
+msgstr "Validate Model"
+
+msgctxt "*"
+msgid "工作流程:"
+msgstr "Workflow:"
+
+msgctxt "*"
+msgid "1. 选择图像文件"
+msgstr "1. Select image file"
+
+msgctxt "*"
+msgid "2. 配置处理设置"
+msgstr "2. Configure processing settings"
+
+msgctxt "*"
+msgid "3. 快速处理单个对象（上）"
+msgstr "3. Quick process single object (above)"
+
+msgctxt "*"
+msgid "4. 批量处理多个对象（下）"
+msgstr "4. Batch process multiple objects (below)"
+
+msgctxt "*"
+msgid "✓ 所有操作共享同一图像和设置"
+msgstr "✓ All operations share the same image and settings"
+
+msgctxt "*"
+msgid "✓ 先处理单个测试效果，再批量应用"
+msgstr "✓ Process single object first to test, then batch apply"
+
+msgctxt "*"
+msgid "版本信息:"
+msgstr "Version Info:"
+
+msgctxt "*"
+msgid "插件版本: v{}.{}"
+msgstr "Add-on Version: v{}.{}"
+
+msgctxt "*"
+msgid "优化: 调整UI布局顺序"
+msgstr "Optimization: Adjusted UI layout order"
+
+msgctxt "*"
+msgid "作者: 墨泪"
+msgstr "Author: 墨泪"
+
+msgctxt "*"
+msgid "主页: https://www.kiiiii.com"
+msgstr "Homepage: https://www.kiiiii.com"
+
+# Status text
+msgctxt "*"
+msgid "等待"
+msgstr "Waiting"
+
+msgctxt "*"
+msgid "处理中"
+msgstr "Processing"
+
+msgctxt "*"
+msgid "完成"
+msgstr "Complete"
+
+msgctxt "*"
+msgid "错误"
+msgstr "Error"
+
+msgctxt "*"
+msgid "无效对象"
+msgstr "Invalid Object"
+
+# Messages
+msgctxt "*"
+msgid "遮罩已应用到 {}"
+msgstr "Mask applied to {}"
+
+msgctxt "*"
+msgid "处理 {} 失败"
+msgstr "Failed to process {}"
+
+msgctxt "*"
+msgid "请先选择一个网格对象！"
+msgstr "Please select a mesh object first!"
+
+msgctxt "*"
+msgid "请先选择图像文件！"
+msgstr "Please select an image file first!"
+
+msgctxt "*"
+msgid "图像文件不存在: {}"
+msgstr "Image file does not exist: {}"
+
+msgctxt "*"
+msgid "无法加载图像: {}"
+msgstr "Unable to load image: {}"
+
+msgctxt "*"
+msgid "添加了 {} 个对象"
+msgstr "Added {} objects"
+
+msgctxt "*"
+msgid "没有可添加的网格对象"
+msgstr "No mesh objects available to add"
+
+msgctxt "*"
+msgid "列表为空"
+msgstr "List is empty"
+
+msgctxt "*"
+msgid "没有选中的对象"
+msgstr "No object selected"
+
+msgctxt "*"
+msgid "移除了: {}"
+msgstr "Removed: {}"
+
+msgctxt "*"
+msgid "移除了 {} 个启用的对象"
+msgstr "Removed {} enabled objects"
+
+msgctxt "*"
+msgid "清空了 {} 个对象"
+msgstr "Cleared {} objects"
+
+msgctxt "*"
+msgid "启用了 {} 个对象"
+msgstr "Enabled {} objects"
+
+msgctxt "*"
+msgid "所有对象都已启用"
+msgstr "All objects are already enabled"
+
+msgctxt "*"
+msgid "禁用了 {} 个对象"
+msgstr "Disabled {} objects"
+
+msgctxt "*"
+msgid "所有对象都已禁用"
+msgstr "All objects are already disabled"
+
+msgctxt "*"
+msgid "批量处理完成: {}成功, {}失败"
+msgstr "Batch processing complete: {} success, {} failed"
+
+msgctxt "*"
+msgid "批量处理列表中没有启用的对象！"
+msgstr "No enabled objects in batch processing list!"
+
+msgctxt "*"
+msgid "修复了 {} 个UV坐标"
+msgstr "Fixed {} UV coordinates"
+
+msgctxt "*"
+msgid "未发现需要修复的UV坐标"
+msgstr "No UV coordinates need fixing"
+
+msgctxt "*"
+msgid "{}: 不是网格对象"
+msgstr "{}: Not a mesh object"
+
+msgctxt "*"
+msgid "{}: 没有UV坐标"
+msgstr "{}: No UV coordinates"
+
+msgctxt "*"
+msgid "{}: {}个UV层"
+msgstr "{}: {} UV layers"
+
+msgctxt "*"
+msgid "{}.{}: {}个无效UV"
+msgstr "{}.{}: {} invalid UVs"
+
+msgctxt "*"
+msgid "{}: 没有顶点色层"
+msgstr "{}: No vertex color layers"
+
+msgctxt "*"
+msgid "{}: {}个顶点色层"
+msgstr "{}: {} vertex color layers"
+
+msgctxt "*"
+msgid "{}: {}个多边形"
+msgstr "{}: {} polygons"
+
+msgctxt "*"
+msgid "{}: {}个顶点"
+msgstr "{}: {} vertices"
+

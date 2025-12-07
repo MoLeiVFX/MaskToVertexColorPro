@@ -1,0 +1,627 @@
+# Chinese (Simplified) translation for Mask To Vertex Color Pro
+# Copyright (C) 2024 墨泪
+# This file is distributed under the same license as the Mask To Vertex Color Pro package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Mask To Vertex Color Pro 2.0.4\n"
+"Report-Msgid-Bugs-To: https://www.kiiiii.com\n"
+"POT-Creation-Date: 2024-01-01 12:00+0000\n"
+"PO-Revision-Date: 2024-01-01 12:00+0000\n"
+"Last-Translator: 墨泪\n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+# 属性名称和描述
+msgctxt "*"
+msgid "对象"
+msgstr "对象"
+
+msgctxt "*"
+msgid "启用"
+msgstr "启用"
+
+msgctxt "*"
+msgid "是否处理此对象"
+msgstr "是否处理此对象"
+
+msgctxt "*"
+msgid "UV层"
+msgstr "UV层"
+
+msgctxt "*"
+msgid "使用的UV层名称"
+msgstr "使用的UV层名称"
+
+msgctxt "*"
+msgid "顶点色名称"
+msgstr "顶点色名称"
+
+msgctxt "*"
+msgid "顶点色层的名称"
+msgstr "顶点色层的名称"
+
+msgctxt "*"
+msgid "顶点颜色属性名:"
+msgstr "顶点颜色属性名:"
+
+msgctxt "*"
+msgid "状态"
+msgstr "状态"
+
+msgctxt "*"
+msgid "处理状态"
+msgstr "处理状态"
+
+msgctxt "*"
+msgid "图像文件"
+msgstr "图像文件"
+
+msgctxt "*"
+msgid "用于遮罩转换的图像文件路径"
+msgstr "用于遮罩转换的图像文件路径"
+
+msgctxt "*"
+msgid "遮罩源"
+msgstr "遮罩源"
+
+msgctxt "*"
+msgid "选择遮罩信息的来源"
+msgstr "选择遮罩信息的来源"
+
+msgctxt "*"
+msgid "混合模式"
+msgstr "混合模式"
+
+msgctxt "*"
+msgid "遮罩与现有顶点色的混合模式"
+msgstr "遮罩与现有顶点色的混合模式"
+
+msgctxt "*"
+msgid "混合强度"
+msgstr "混合强度"
+
+msgctxt "*"
+msgid "混合效果的强度"
+msgstr "混合效果的强度"
+
+msgctxt "*"
+msgid "UV包裹"
+msgstr "UV包裹"
+
+msgctxt "*"
+msgid "将UV坐标包裹在0-1范围内（处理超出范围的UV）"
+msgstr "将UV坐标包裹在0-1范围内（处理超出范围的UV）"
+
+msgctxt "*"
+msgid "UV限制"
+msgstr "UV限制"
+
+msgctxt "*"
+msgid "将UV坐标限制在0-1范围内（不包裹）"
+msgstr "将UV坐标限制在0-1范围内（不包裹）"
+
+msgctxt "*"
+msgid "垂直翻转"
+msgstr "垂直翻转"
+
+msgctxt "*"
+msgid "修复图像上下颠倒的问题"
+msgstr "修复图像上下颠倒的问题"
+
+msgctxt "*"
+msgid "水平翻转"
+msgstr "水平翻转"
+
+msgctxt "*"
+msgid "修复图像左右颠倒的问题"
+msgstr "修复图像左右颠倒的问题"
+
+msgctxt "*"
+msgid "调试模式"
+msgstr "调试模式"
+
+msgctxt "*"
+msgid "显示详细处理信息"
+msgstr "显示详细处理信息"
+
+msgctxt "*"
+msgid "单对象处理时创建的顶点色层的名称"
+msgstr "单对象处理时创建的顶点色层的名称"
+
+# 枚举项
+msgctxt "*"
+msgid "自动检测"
+msgstr "自动检测"
+
+msgctxt "*"
+msgid "自动检测最佳遮罩源"
+msgstr "自动检测最佳遮罩源"
+
+msgctxt "*"
+msgid "Alpha通道"
+msgstr "Alpha通道"
+
+msgctxt "*"
+msgid "使用图像的Alpha通道作为遮罩"
+msgstr "使用图像的Alpha通道作为遮罩"
+
+msgctxt "*"
+msgid "灰度值"
+msgstr "灰度值"
+
+msgctxt "*"
+msgid "将RGB转换为灰度作为遮罩"
+msgstr "将RGB转换为灰度作为遮罩"
+
+msgctxt "*"
+msgid "红色通道"
+msgstr "红色通道"
+
+msgctxt "*"
+msgid "使用红色通道作为遮罩"
+msgstr "使用红色通道作为遮罩"
+
+msgctxt "*"
+msgid "绿色通道"
+msgstr "绿色通道"
+
+msgctxt "*"
+msgid "使用绿色通道作为遮罩"
+msgstr "使用绿色通道作为遮罩"
+
+msgctxt "*"
+msgid "蓝色通道"
+msgstr "蓝色通道"
+
+msgctxt "*"
+msgid "使用蓝色通道作为遮罩"
+msgstr "使用蓝色通道作为遮罩"
+
+msgctxt "*"
+msgid "亮度"
+msgstr "亮度"
+
+msgctxt "*"
+msgid "使用亮度作为遮罩"
+msgstr "使用亮度作为遮罩"
+
+msgctxt "*"
+msgid "替换"
+msgstr "替换"
+
+msgctxt "*"
+msgid "替换现有Alpha值"
+msgstr "替换现有Alpha值"
+
+msgctxt "*"
+msgid "相乘"
+msgstr "相乘"
+
+msgctxt "*"
+msgid "与现有Alpha值相乘"
+msgstr "与现有Alpha值相乘"
+
+msgctxt "*"
+msgid "相加"
+msgstr "相加"
+
+msgctxt "*"
+msgid "与现有Alpha值相加"
+msgstr "与现有Alpha值相加"
+
+msgctxt "*"
+msgid "相减"
+msgstr "相减"
+
+msgctxt "*"
+msgid "从现有Alpha值中减去"
+msgstr "从现有Alpha值中减去"
+
+msgctxt "*"
+msgid "最小值"
+msgstr "最小值"
+
+msgctxt "*"
+msgid "取最小值"
+msgstr "取最小值"
+
+msgctxt "*"
+msgid "最大值"
+msgstr "最大值"
+
+msgctxt "*"
+msgid "取最大值"
+msgstr "取最大值"
+
+msgctxt "*"
+msgid "叠加"
+msgstr "叠加"
+
+msgctxt "*"
+msgid "叠加模式"
+msgstr "叠加模式"
+
+msgctxt "*"
+msgid "滤色"
+msgstr "滤色"
+
+msgctxt "*"
+msgid "滤色模式"
+msgstr "滤色模式"
+
+# 操作符
+msgctxt "Operator"
+msgid "选择图像文件"
+msgstr "选择图像文件"
+
+msgctxt "Operator"
+msgid "选择用于遮罩转换的图像文件"
+msgstr "选择用于遮罩转换的图像文件"
+
+msgctxt "Operator"
+msgid "应用遮罩到顶点色"
+msgstr "应用遮罩到顶点色"
+
+msgctxt "Operator"
+msgid "将共享设置中的图像应用到当前选中模型的顶点色Alpha通道"
+msgstr "将共享设置中的图像应用到当前选中模型的顶点色Alpha通道"
+
+msgctxt "Operator"
+msgid "添加选中对象"
+msgstr "添加选中对象"
+
+msgctxt "Operator"
+msgid "将选中的对象添加到批量处理列表"
+msgstr "将选中的对象添加到批量处理列表"
+
+msgctxt "Operator"
+msgid "移除选中"
+msgstr "移除选中"
+
+msgctxt "Operator"
+msgid "从批量处理列表中移除选中的对象"
+msgstr "从批量处理列表中移除选中的对象"
+
+msgctxt "Operator"
+msgid "移除启用项"
+msgstr "移除启用项"
+
+msgctxt "Operator"
+msgid "从批量处理列表中移除所有启用的对象"
+msgstr "从批量处理列表中移除所有启用的对象"
+
+msgctxt "Operator"
+msgid "清空列表"
+msgstr "清空列表"
+
+msgctxt "Operator"
+msgid "清空批量处理列表中的所有对象"
+msgstr "清空批量处理列表中的所有对象"
+
+msgctxt "Operator"
+msgid "全部启用"
+msgstr "全部启用"
+
+msgctxt "Operator"
+msgid "启用列表中的所有对象"
+msgstr "启用列表中的所有对象"
+
+msgctxt "Operator"
+msgid "全部禁用"
+msgstr "全部禁用"
+
+msgctxt "Operator"
+msgid "禁用列表中的所有对象"
+msgstr "禁用列表中的所有对象"
+
+msgctxt "Operator"
+msgid "批量应用遮罩"
+msgstr "批量应用遮罩"
+
+msgctxt "Operator"
+msgid "批量将遮罩应用到多个对象的顶点色"
+msgstr "批量将遮罩应用到多个对象的顶点色"
+
+msgctxt "Operator"
+msgid "修复UV坐标"
+msgstr "修复UV坐标"
+
+msgctxt "Operator"
+msgid "修复UV坐标中的NaN和无效值"
+msgstr "修复UV坐标中的NaN和无效值"
+
+msgctxt "Operator"
+msgid "验证模型"
+msgstr "验证模型"
+
+msgctxt "Operator"
+msgid "检查模型是否适合应用遮罩"
+msgstr "检查模型是否适合应用遮罩"
+
+# UI文本
+msgctxt "*"
+msgid "遮罩转顶点色 Pro"
+msgstr "遮罩转顶点色 Pro"
+
+msgctxt "*"
+msgid "图像文件:"
+msgstr "图像文件:"
+
+msgctxt "*"
+msgid "未选择图像"
+msgstr "未选择图像"
+
+msgctxt "*"
+msgid "选择图像"
+msgstr "选择图像"
+
+msgctxt "*"
+msgid "更换图像"
+msgstr "更换图像"
+
+msgctxt "*"
+msgid "处理设置:"
+msgstr "处理设置:"
+
+msgctxt "*"
+msgid "单对象处理:"
+msgstr "单对象处理:"
+
+msgctxt "*"
+msgid "应用到当前选中对象"
+msgstr "应用到当前选中对象"
+
+msgctxt "*"
+msgid "注意: 仅处理当前选中的一个对象"
+msgstr "注意: 仅处理当前选中的一个对象"
+
+msgctxt "*"
+msgid "请先选择图像文件"
+msgstr "请先选择图像文件"
+
+msgctxt "*"
+msgid "批量处理:"
+msgstr "批量处理:"
+
+msgctxt "*"
+msgid "批量应用到 {} 个对象"
+msgstr "批量应用到 {} 个对象"
+
+msgctxt "*"
+msgid "注意: 将处理列表中所有启用的对象 ({}个)"
+msgstr "注意: 将处理列表中所有启用的对象 ({}个)"
+
+msgctxt "*"
+msgid "请在列表中启用至少一个对象"
+msgstr "请在列表中启用至少一个对象"
+
+msgctxt "*"
+msgid "批量列表为空"
+msgstr "批量列表为空"
+
+msgctxt "*"
+msgid "添加选中对象到列表"
+msgstr "添加选中对象到列表"
+
+msgctxt "*"
+msgid "使用方法:"
+msgstr "使用方法:"
+
+msgctxt "*"
+msgid "1. 在3D视图中选择多个对象"
+msgstr "1. 在3D视图中选择多个对象"
+
+msgctxt "*"
+msgid "2. 点击'添加选中对象到列表'"
+msgstr "2. 点击'添加选中对象到列表'"
+
+msgctxt "*"
+msgid "3. 在列表中勾选要处理的对象"
+msgstr "3. 在列表中勾选要处理的对象"
+
+msgctxt "*"
+msgid "4. 点击'批量应用到X个对象'"
+msgstr "4. 点击'批量应用到X个对象'"
+
+msgctxt "*"
+msgid "工具:"
+msgstr "工具:"
+
+msgctxt "*"
+msgid "修复UV坐标"
+msgstr "修复UV坐标"
+
+msgctxt "*"
+msgid "验证模型"
+msgstr "验证模型"
+
+msgctxt "*"
+msgid "工作流程:"
+msgstr "工作流程:"
+
+msgctxt "*"
+msgid "1. 选择图像文件"
+msgstr "1. 选择图像文件"
+
+msgctxt "*"
+msgid "2. 配置处理设置"
+msgstr "2. 配置处理设置"
+
+msgctxt "*"
+msgid "3. 快速处理单个对象（上）"
+msgstr "3. 快速处理单个对象（上）"
+
+msgctxt "*"
+msgid "4. 批量处理多个对象（下）"
+msgstr "4. 批量处理多个对象（下）"
+
+msgctxt "*"
+msgid "✓ 所有操作共享同一图像和设置"
+msgstr "✓ 所有操作共享同一图像和设置"
+
+msgctxt "*"
+msgid "✓ 先处理单个测试效果，再批量应用"
+msgstr "✓ 先处理单个测试效果，再批量应用"
+
+msgctxt "*"
+msgid "版本信息:"
+msgstr "版本信息:"
+
+msgctxt "*"
+msgid "插件版本: v{}.{}"
+msgstr "插件版本: v{}.{}"
+
+msgctxt "*"
+msgid "优化: 调整UI布局顺序"
+msgstr "优化: 调整UI布局顺序"
+
+msgctxt "*"
+msgid "作者: 墨泪"
+msgstr "作者: 墨泪"
+
+msgctxt "*"
+msgid "主页: https://www.kiiiii.com"
+msgstr "主页: https://www.kiiiii.com"
+
+# 状态文本
+msgctxt "*"
+msgid "等待"
+msgstr "等待"
+
+msgctxt "*"
+msgid "处理中"
+msgstr "处理中"
+
+msgctxt "*"
+msgid "完成"
+msgstr "完成"
+
+msgctxt "*"
+msgid "错误"
+msgstr "错误"
+
+msgctxt "*"
+msgid "无效对象"
+msgstr "无效对象"
+
+# 消息
+msgctxt "*"
+msgid "遮罩已应用到 {}"
+msgstr "遮罩已应用到 {}"
+
+msgctxt "*"
+msgid "处理 {} 失败"
+msgstr "处理 {} 失败"
+
+msgctxt "*"
+msgid "请先选择一个网格对象！"
+msgstr "请先选择一个网格对象！"
+
+msgctxt "*"
+msgid "请先选择图像文件！"
+msgstr "请先选择图像文件！"
+
+msgctxt "*"
+msgid "图像文件不存在: {}"
+msgstr "图像文件不存在: {}"
+
+msgctxt "*"
+msgid "无法加载图像: {}"
+msgstr "无法加载图像: {}"
+
+msgctxt "*"
+msgid "添加了 {} 个对象"
+msgstr "添加了 {} 个对象"
+
+msgctxt "*"
+msgid "没有可添加的网格对象"
+msgstr "没有可添加的网格对象"
+
+msgctxt "*"
+msgid "列表为空"
+msgstr "列表为空"
+
+msgctxt "*"
+msgid "没有选中的对象"
+msgstr "没有选中的对象"
+
+msgctxt "*"
+msgid "移除了: {}"
+msgstr "移除了: {}"
+
+msgctxt "*"
+msgid "移除了 {} 个启用的对象"
+msgstr "移除了 {} 个启用的对象"
+
+msgctxt "*"
+msgid "清空了 {} 个对象"
+msgstr "清空了 {} 个对象"
+
+msgctxt "*"
+msgid "启用了 {} 个对象"
+msgstr "启用了 {} 个对象"
+
+msgctxt "*"
+msgid "所有对象都已启用"
+msgstr "所有对象都已启用"
+
+msgctxt "*"
+msgid "禁用了 {} 个对象"
+msgstr "禁用了 {} 个对象"
+
+msgctxt "*"
+msgid "所有对象都已禁用"
+msgstr "所有对象都已禁用"
+
+msgctxt "*"
+msgid "批量处理完成: {}成功, {}失败"
+msgstr "批量处理完成: {}成功, {}失败"
+
+msgctxt "*"
+msgid "批量处理列表中没有启用的对象！"
+msgstr "批量处理列表中没有启用的对象！"
+
+msgctxt "*"
+msgid "修复了 {} 个UV坐标"
+msgstr "修复了 {} 个UV坐标"
+
+msgctxt "*"
+msgid "未发现需要修复的UV坐标"
+msgstr "未发现需要修复的UV坐标"
+
+msgctxt "*"
+msgid "{}: 不是网格对象"
+msgstr "{}: 不是网格对象"
+
+msgctxt "*"
+msgid "{}: 没有UV坐标"
+msgstr "{}: 没有UV坐标"
+
+msgctxt "*"
+msgid "{}: {}个UV层"
+msgstr "{}: {}个UV层"
+
+msgctxt "*"
+msgid "{}.{}: {}个无效UV"
+msgstr "{}.{}: {}个无效UV"
+
+msgctxt "*"
+msgid "{}: 没有顶点色层"
+msgstr "{}: 没有顶点色层"
+
+msgctxt "*"
+msgid "{}: {}个顶点色层"
+msgstr "{}: {}个顶点色层"
+
+msgctxt "*"
+msgid "{}: {}个多边形"
+msgstr "{}: {}个多边形"
+
+msgctxt "*"
+msgid "{}: {}个顶点"
+msgstr "{}: {}个顶点"
+

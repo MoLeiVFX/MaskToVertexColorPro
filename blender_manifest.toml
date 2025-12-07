@@ -1,0 +1,14 @@
+schema_version = "1.0.0"
+id = "Mask_To_Vertex_Color Pro"
+name = "MaskToVertexColorPro"
+version = "2.0.4"
+tagline = "Mask To VertexColor Pro Tools"
+maintainer = "墨泪"
+type = "add-on"
+blender_version_min = "2.8.0"
+tags = ["3D View", "Object", "Mesh"]
+license = ["SPDX:GPL-3.0-or-later"]
+website = "https://www.kiiiii.com"
+
+[permissions]
+files = "Import images are required as masks"
