@@ -6,7 +6,7 @@ tagline = "Mask To VertexColor Pro Tools"
 maintainer = "墨泪"
 type = "add-on"
 blender_version_min = "4.2.0"
-tags = ["3D View", "Object", "Mesh"]
+tags = ["Paint", "Material"]
 license = ["SPDX:GPL-3.0-or-later"]
 website = "https://www.kiiiii.com"
 
