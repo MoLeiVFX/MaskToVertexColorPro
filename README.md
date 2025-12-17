@@ -1,5 +1,7 @@
 # Mask To Vertex Color Pro 使用文档
 
+- 中文 | [English](./README_EN.md)
+
 ## 目录
 1. [插件简介](#插件简介)
 2. [安装与启用](#安装与启用)
