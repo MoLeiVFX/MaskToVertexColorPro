@@ -1,3 +1,13 @@
+<div align="center">
+  <img src="https://github.com/MoLeiVFX/MaskToVertexColorPro/blob/main/IMG/MaskToVertexColorPro_Light.png" width="80%">
+</div>
+
+</div>
+
+<div align="center">
+
+</div>
+
 # Mask To Vertex Color Pro 使用文档
 
 - 中文 | [English](./README_EN.md)
