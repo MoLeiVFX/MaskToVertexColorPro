@@ -1,5 +1,7 @@
 # Mask To Vertex Color Pro User Manual
 
+- [中文](./README.md) | English
+
 ## Table of Contents
 1. [Plugin Introduction](#plugin-introduction)
 2. [Installation and Activation](#installation-and-activation)
